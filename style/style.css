@@ -73,7 +73,7 @@ nav ul li a {
     width: 100%;
     z-index: 1;
     border-radius: 5px;
-    left: 0; /* Menüyü sayfanın solundan başlatır */
+    left: 0;
 }
 
 .dropdown:hover .dropdown-content {
@@ -135,4 +135,14 @@ footer {
 
 .map {
     margin: 0;
+}
+
+.carousel-item {
+    max-height: 400px; /* İstediğiniz yüksekliği ayarlayın */
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
