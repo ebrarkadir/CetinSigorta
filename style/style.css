@@ -1,3 +1,7 @@
+:root {
+    --bg-light-color: white;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -10,7 +14,7 @@ body {
 }
 
 header {
-    background-color: white;
+    background-color: var(--bg-light-color);
     color: black; 
     padding: 10px 0;
     overflow: hidden;
@@ -23,9 +27,16 @@ header {
 }
 
 .logo img {
-    width: 100px;
+    width: 80px;
     height: auto;
     margin-right: 10px;
+}
+
+.logo span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 5px;
 }
 
 nav {
@@ -84,6 +95,7 @@ nav ul li a {
     padding: 10px;
     box-sizing: border-box;
     width: 100%;
+    margin: 0;
 }
 
 .submenu h3 {
@@ -110,7 +122,7 @@ nav ul li a {
 }
 
 footer {
-    background-color: #180054;
+    background-color: #004AAD;
     color: white;
     text-align: center;
     padding: 10px 0;
@@ -138,7 +150,7 @@ footer {
 }
 
 .carousel-item {
-    max-height: 400px; /* İstediğiniz yüksekliği ayarlayın */
+    max-height: 400px; 
 }
 
 .carousel-item img {
